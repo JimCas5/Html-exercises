@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI';
+            font-size: 25px;
+            box-sizing:content-box;
+        }
+
+        .container{
+            padding: 10px;
+        }
+        .encabeza{
+            text-align: center;
+            background-color: #c0ba18;
+            color: #5f4b0a;
+            padding: 0%;
+        }
+        .boxclass{
+            width: 300px;
+            float: left;
+            transition: all 1s;
+            text-align: center;
+            background:scroll (to bottom, #a5e41c);
+            border: 10px #000000;
+            
+        }
+
+        .boxclass:hover{
+            background-color: rgba(255, 228, 196, 0.595);
+            background-position: top;
+        }
+        .boxclass .img-title {
+            color: #c0ba18;
+            font-family:'Arial Narrow Bold' ;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            
+        }
+        .boxclass .imagen{
+            width: 50px;
+        }
+        .boxclass .price{
+            color: #c0ba18;
+            text-align: center;
+            font-weight:bold;
+        }
+        .boxclass .descripcion {
+            margin-bottom: 5px;
+            transform: scale(0.9);
+        } 
+        .boxclass .button{
+            transform: scale(0);
+            background-color: #d58a2f;
+            color: rgb(255, 255, 255);
+            border-radius: 15px;
+            padding: 5px 15px;
+            transition: all 0.3s;
+        }
+        .boxclass:hover .button {
+            transform: scale(0.7);
+        }
+        .boxclass .button:active{
+            transform: scale(0.8);
+        }
+
+        .boxclass .button:hover{
+            background-color: #834800;
+        }
+        .bottom {
+            position: bottom;
+            bottom: 200px;
+            text-align: center;
+            width: 80%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="encabeza">!!!  SELECCIONA  !!!</header>
+    <div class="container">
+        <div class="boxclass">
+            <div class="imagen">
+                <img src="burger1.png" alt="burger 1">
+            </div>
+            <div class="img-title">Double Burger</div>
+            <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="price">$25.00</div>
+            <div class="button">Ordenalo</div>
+        </div>
+
+        <div class="boxclass">
+            <div class="imagen">
+                <img src="burger1.png" alt="burger 1">
+            </div>
+            <div class="img-title">Chicken Burger</div>
+            <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="price">$19.50</div>
+            <div class="button">Ordenalo</div>
+        </div>
+
+        <div class="boxclass">
+            <div class="imagen">
+                <img src="burger3.png" alt="Burger 3">
+            </div>
+            <div class="img-title">Mexican Burger</div>
+            <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="price">$12.50</div>
+            <div class="button">Ordenalo</div>
+        </div>
+
+        <div class="boxclass">
+            <div class="imagen">
+                <img src="burger4.png" alt="Burger 4">
+            </div>
+            <div class="img-title">Mini Burger</div>
+            <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="price">$10.90</div>
+            <div class="button">Ordenalo</div>
+        </div>
+        <div class="boxclass">
+            <div class="imagen">
+                <img src="burger5.png" alt="Burger 5">
+            </div>
+            <div class="img-tittle">Create You</div>
+            <p class="descripcion"> Puedes agregarle lo que vos desees</p>
+            <div class="price">$15.00</div>
+            <div class="button">Ordenalo</div>
+        </div>
+    </div>
+    
+
+    <div class="bottom">www.templatemoster.com</div>
+</body>
+
+</html>
